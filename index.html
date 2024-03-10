@@ -1,398 +1,509 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Angel Home Health Service</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, sans-serif;
-        }
-
-        .mySlides {
-            display: none;
-        }
-
-        img {
-            vertical-align: middle;
-        }
-
-        /* Slideshow container */
-        .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-        }
-
-        /* Caption text */
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        /* Number text (1/3 etc) */
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-        }
-
-        .dot {
-            height: 10px;
-            width: 10px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-        .active {
-            background-color: #717171;
-        }
-
-        .fade {
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
-
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        @media only screen and (max-width: 300px) {
-            .text {
-                font-size: 11px
-            }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="descriptison" content="Angel Home Health Care Services, #5, 2nd Cross, Manjunath Nagar, Cholurpalya, Magadi
+    Road, Bangalore - 560 023">
+    <meta name="keywords" content="angel, angel_home, healthcare, medical, hospital, doctor">
+    <meta name="author" content="Dolab IT Solutions">
+    <title>Angel Home - Health Services</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet"
+        href="../fonts.googleapis.com/css2331.css?family=Source+Sans+Pro:400,600,700&amp;display=swap" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section class="">
-        <div class="md:h-[40vh] bg-blue-900 flex justify-center items-center">
-            <div class="text-center p-4">
-                <h1 class="text-white md:text-5xl text-3xl ">ಏಂಜೆಲ್ ಹೋಮ್ ಹೆಲ್ತ್ ಕೇರ್ ಸರ್ವಿಸ್</h1>
-                <h1 class="text-yellow-200 md:text-5xl text-3xl font-semibold md:mt-3 mt-6">ANGEL HOME HEALTH CARE
-                    SERVICE
-                </h1>
-                <p class="text-white mt-5 md:text-lg">#5, 2nd Cross, Manjunath Nagar, Cholurpalya, Magadi Road,
-                    Bangalore - 560 023
-                </p>
-                <p class="text-yellow-200 md:mt-2 md:text-lg">#5, 2ನೇ ಕ್ರಾಸ್ ಚೋಳೂರುಪಾಳ್ಯ, ಮಂಜುನಾಥ್ ನಗರ, ಬೆಂಗಳೂರು -
-                    560023
-                </p>
-                <p class="text-xl font-semibold text-white md:mt-2 mt-5">96323 25244, 77957 62024, 88675 23650, 95386
-                    06381</p>
-
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
+            <a class="navbar-brand brand-logo mr-4" href="/">
+                <img src="images/logo.png" class="img-fluid logo-light" alt="">
+                <img src="images/logo-dark.png" class="img-fluid logo-dark" alt="">
+            </a>
+            <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+                <ul class="navbar-nav navbar-center" id="mySidenav">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">Speciality</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#departments" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#premises" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact_btn">
+                <a href="https://api.whatsapp.com/send?phone=919632325244" class="btn btn-sm">WhatsApp</a>
+                <button class="navbar-toggler ml-2 p-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="icofont-navigation-menu"></i>
+                </button>
             </div>
         </div>
-        <div class="py-6 bg-white text-gray-900">
-            <div class="flex items-center justify-center px-4 py-4 space-y-8 md:px-10">
-                <a href="https://api.whatsapp.com/send?phone=919632325244"
-                    class="px-12 py-6 rounded bg-green-50 hover:bg-white border shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300"><img
-                        width="150px" src="whatsapp.png" alt="Whatsapp"></a>
-            </div>
-            <div class="text-center">
-                <h4 class="md:text-3xl text-xl text-green-900 font-medium">WhatsApp No: <span>96323 25244</span></h4>
-            </div>
-        </div>
+    </nav>
 
-
-
-
-
-        <div class="bg-gray-200 text-gray-800">
-            <div class="container max-w-xl p-6 py-12 mx-auto  lg:px-8 lg:max-w-7xl">
-                <!-- <div>
-                    <h2 class="text-3xl font-bold tracki text-center sm:text-5xl text-gray-900">24/7 AVAILABLE</h2>
-                    <h2 class="text-3xl font-bold tracki text-center sm:text-5xl text-gray-900">24/7 ಲಭ್ಯವಿದೆ</h2>
-                </div> -->
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <div class="flex flex-col md:flex-row items-center justify-center">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <div class="ml-4 text-center md:text-left mt-3 md:mt-0">
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 AVAILABLE</h4>
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 ಲಭ್ಯವಿದೆ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="flex flex-col md:flex-row items-center justify-center">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <div class="ml-4 text-center md:text-left mt-3 md:mt-0">
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 NURSING CARE</h4>
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 ನರ್ಸಿಂಗ್ ಕೇರ್</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="flex flex-col md:flex-row items-center justify-center">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <div class="ml-4 text-center md:text-left mt-3 md:mt-0">
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 SUPPORING STAFF CARE</h4>
-                                <h4 class="font-semibold text-xl text-gray-900">24/7 ಸಹಾಯಕ ಸಿಬ್ಬಂದಿ ಆರೈಕೆ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="flex flex-col md:flex-row items-center justify-center">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <div class="ml-4 text-center md:text-left mt-3 md:mt-0">
-                                <h4 class="font-semibold text-xl text-gray-900">ON CALL DOCTORS AVAILABLE FOR HOME VISIT
-                                </h4>
-                                <h4 class="font-semibold text-xl text-gray-900">ಮನೆಗೆ ಭೇಟಿ ನೀಡಲು ವೈದ್ಯರ ಕರೆಯಲ್ಲಿ ಲಭ್ಯವಿದೆ
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div style="text-align:center">
-                    <!-- <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span> -->
-                </div>
-
-                <script>
-                    let slideIndex = 0;
-                    showSlides();
-
-                    function showSlides() {
-                        let i;
-                        let slides = document.getElementsByClassName("mySlides");
-                        // let dots = document.getElementsByClassName("dot");
-                        for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";
-                        }
-                        slideIndex++;
-                        if (slideIndex > slides.length) { slideIndex = 1 }
-                        // for (i = 0; i < dots.length; i++) {
-                        //     dots[i].className = dots[i].className.replace(" active", "");
-                        // }
-                        slides[slideIndex - 1].style.display = "block";
-                        // dots[slideIndex - 1].className += " active";
-                        setTimeout(showSlides, 3000); // Change image every 2 seconds
-                    }
-                </script>
-
-                <!-- <div class="grid lg:gap-8 gap-4 lg:grid-cols-3 items-center">
-                    <div>
-                        <div class="flex">
-                            <div class="">
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke="currentColor" class="w-7 h-7">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
+    <section class="bg-gradient overflow-hidden home-section" id="home">
+        <div class="waves-bg home-bg">
+            <div class="container">
+                <div class="owl-carousel owl-theme home-slider">
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="content-fadeInUp">
+                                    <h2 class="heading">
+                                        ANGEL HOME HEALTH CARE SERVICE
+                                    </h2>
+                                    <h1 class="text-white sub-title">#5, 2nd Cross, Manjunath Nagar, Cholurpalya, Magadi
+                                        Road, Bangalore - 560 023</h1>
+                                    <p class="para-sec">
+                                        96323 25244, 77957 62024, 88675 23650, 95386 06381
+                                    </p>
+                                    <div class="learn-more">
+                                        <a href="https://api.whatsapp.com/send?phone=919632325244"
+                                            class="btn btn-white btn-rounded text-white">WhatsApp</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="ml-4">
-                                <h4 class="text-lg font-medium text-gray-900">24/7 NURSING CARE</h4>
-                                <h4 class="text-lg font-medium text-gray-900">24/7 ನರ್ಸಿಂಗ್ ಕೇರ್</h4>
+                            <div class="col-md-6">
+                                <div class="img-fadeInRight">
+                                    <img src="images/nurse.png" class="img-fluid" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="flex">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="content-fadeInUp">
+                                    <h2 class="heading">
+                                        ಏಂಜೆಲ್ ಹೋಮ್ ಹೆಲ್ತ್ ಕೇರ್ ಸರ್ವಿಸ್
+                                    </h2>
+                                    <h1 class="text-white sub-title">#5, 2ನೇ ಕ್ರಾಸ್ ಚೋಳೂರುಪಾಳ್ಯ, ಮಂಜುನಾಥ್ ನಗರ, ಬೆಂಗಳೂರು
+                                        - 560023</h1>
+                                    <p class="para-sec">
+                                        96323 25244, 77957 62024, 88675 23650, 95386 06381
+                                    </p>
+                                    <div class="learn-more">
+                                        <a href="https://api.whatsapp.com/send?phone=919632325244"
+                                            class="btn btn-white btn-rounded text-white">WhatsApp</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="ml-4">
-                                <h4 class="text-lg font-medium text-gray-900">24/7 SUPPORING STAFF CARE</h4>
-                                <h4 class="text-lg font-medium text-gray-900">24/7 ಸಹಾಯಕ ಸಿಬ್ಬಂದಿ ಆರೈಕೆ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex">
-                            <div
-                                class="flex items-center justify-center w-12 h-12 rounded-md bg-green-600 text-gray-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor" class="w-7 h-7">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <div class="ml-4">
-                                <h4 class="text-lg font-medium text-gray-900">ON CALL DOCTORS AVAILABLE FOR HOME VISIT
-                                </h4>
-                                <h4 class="text-lg font-medium text-gray-900">ಮನೆಗೆ ಭೇಟಿ ನೀಡಲು ವೈದ್ಯರ ಕರೆಯಲ್ಲಿ ಲಭ್ಯವಿದೆ
-                                </h4>
+                            <div class="col-md-6">
+                                <div class="img-fadeInRight">
+                                    <img src="images/nurse.png" class="img-fluid" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
+            </div>
+            <div class="hero-waves">
+                <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+                    <defs></defs>
+                    <path id="wave1" d="" />
+                </svg>
+                <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+                    <defs></defs>
+                    <path id="wave2" d="" />
+                </svg>
             </div>
         </div>
-
-        <div class="p-4 md:p-8 bg-gray-100 text-gray-800">
-            <div class="container mx-auto p-4 my-6 space-y-2 text-center">
-                <h2 class="text-5xl font-bold">Our Services</h2>
-                <h2 class="text-5xl font-bold">ನಮ್ಮ ಸೇವೆಗಳು</h2>
-            </div>
-            <div class="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3 text-center">
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">BP-CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಬಿಪಿ - ಪರೀಕ್ಷಿಸಿ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">PULSE-CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಪಲ್ಸ್-ಚೆಕ್ ಅಪ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">OXYGEN LEVEL -CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಆಮ್ಲಜನಕದ ಮಟ್ಟ - ಪರಿಶೀಲಿಸಿ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">TEMPERATURE-CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ತಾಪಮಾನ-ಪರಿಶೀಲಿಸಿ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">WEIGHT -CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ತೂಕ - ಪರಿಶೀಲಿಸಿ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">SUGAR - CHECK UP</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಸಕ್ಕರೆ - ಪರಿಶೀಲಿಸಿ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">IV CANNULISATION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">IV ಕ್ಯಾನುಲೈಸೇಶನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">INTRAVENOUS INJECTION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಇಂಟ್ರಾವೆನಸ್ ಇಂಜೆಕ್ಷನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">INTRAVENOUS INFUSION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಇಂಟ್ರಾವೆನಸ್ ಇನ್ಫ್ಯೂಷನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">INTRA MUSCULAR INJECTION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಇಂಟ್ರಾ ಮಸ್ಕ್ಯುಲರ್ ಇಂಜೆಕ್ಷನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">SUBCUTANEOUS INJECTION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಸಬ್ಕ್ಯುಟೇನಿಯಸ್ ಇಂಜೆಕ್ಷನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">RYLES TUBE INSERTION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಅಳವಡಿಕೆ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">RYLES TUBE FEEDING</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಆಹಾರ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">PEG TUBE FEEDING</h3>
-                    <h3 class="my-3 text-2xl font-semibold">PEG ಟ್ಯೂಬ್ ಆಹಾರ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">FOLEY’S CATHETERIZATION</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಫೋಲಿಯ ಕ್ಯಾತಿಟರೈಸೇಶನ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">BLADDER WASH</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಮೂತ್ರಕೋಶ ವಾಶ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">WOUND DRESSING - BIG, MEDIUM, SMALL</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಗಾಯದ ಡ್ರೆಸ್ಸಿಂಗ್ - ದೊಡ್ಡ, ಮಧ್ಯಮ, ಸಣ್ಣ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">SURGICAL CARE</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಆರೈಕೆ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">MEDICAL CARE</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ವೈದ್ಯಕೀಯ ಆರೈಕೆ</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">TRACHEOSTOMY TUBE CARE</h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಟ್ರಾಕಿಯೊಸ್ಟೊಮಿ ಟ್ಯೂಬ್ ಕೇರ್</h3>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <h3 class="my-3 text-2xl font-semibold">BED RIDDEN PATIENT CARE </h3>
-                    <h3 class="my-3 text-2xl font-semibold">ಹಾಸಿಗೆ ಹಿಡಿದ ರೋಗಿಗಳ ಆರೈಕೆ</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-blue-950 p-8 md:px-24 text-white flex">
-            <div class="md:w-1/3">
-                <h5 class="md:text-2xl font-semibold">ANGEL HOME HEALTH CARE SERVICE</h5>
-                <h5 class="md:text-2xl font-semibold text-yellow-200">ಏಂಜೆಲ್ ಹೋಮ್ ಹೆಲ್ತ್ ಕೇರ್ ಸರ್ವಿಸ್</h5><br>
-                <p>#5, 2nd cross cholurpalaya, manjunath nagar,<br> Bangalore 560023</p>
-                <p class="text-yellow-200">#5, 2ನೇ ಕ್ರಾಸ್ ಚೋಳೂರುಪಾಳ್ಯ, ಮಂಜುನಾಥ್ ನಗರ,<br>ಬೆಂಗಳೂರು 560023</p>
-                <br>
-                <p class="text-xl font-semibold">96323 25244 <br>77957 62024 <br>88675 23650 <br>95386 06381</p>
-            </div>
-            <div class="w-2/3">
-
-
-            </div>
-        </div>
-
     </section>
 
+    <section id="features" class="section features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center mb-4">
+                        <h2>Our Speciality</h2>
+                        <h2>ನಮ್ಮ ವಿಶೇಷತೆ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="ftr-icon-box wow fadeInUp">
+                        <div class="icon"><i class="icofont-stretcher"></i></div>
+                        <h4 class="title">Emergency Care</h4>
+                        <h4 class="title">ತುರ್ತು ಆರೈಕೆ</h4>
+                        <p class="description">Surgical Care, Medical Care <br>ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಆರೈಕೆ, ವೈದ್ಯಕೀಯ ಆರೈಕೆ</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftr-icon-box wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="icon"><i class="icofont-doctor"></i></div>
+                        <h4 class="title">Qualified Nurses</h4>
+                        <h4 class="title">ಅರ್ಹ ದಾದಿಯರು</h4>
+                        <p class="description">On Call Doctors Available For Home Visit <br>ಮನೆಗೆ ಭೇಟಿ ನೀಡಲು ವೈದ್ಯರ
+                            ಕರೆಯಲ್ಲಿ ಲಭ್ಯವಿದೆ</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftr-icon-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon"><i class="icofont-wall-clock"></i></div>
+                        <h4 class="title">24/7 Hours Available</h4>
+                        <h4 class="title">24/7 ಗಂಟೆಗಳು ಲಭ್ಯವಿದೆ</h4>
+                        <p class="description">24/7 Nursing Care, Supporting Staff Care <br>24/7 ಸಹಾಯಕ ಸಿಬ್ಬಂದಿ
+                            ಆರೈಕೆ, ಸಹಾಯಕ ಸಿಬ್ಬಂದಿ ಆರೈಕೆ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="departments">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center mb-4">
+                        <h2>Our Services</h2>
+                        <h2>ನಮ್ಮ ಸೇವೆಗಳು</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-01.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-heart-beat-alt"></i>
+                            <h4>Check-Ups</h4>
+                            <h4>ಚೆಕ್ ಅಪ್ಗಳು</h4>
+                            <p class="details">BP, Pulse, Oxygen, Tempperature, Weight, Sugar Check-up available 24/7
+                                <br>ಬಿಪಿ, ಮತ್ತು, ಆಮ್ಲಜನಕ, ತಾಪಮಾನ, ತೂಕ, ಸಕ್ಕರೆ ನಾಡಿ ತಪಾಸಣೆ 24/7
+                                ಲಭ್ಯವಿದೆ
+                            </p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-02.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-autism"></i>
+                            <h4>INTRAVENOUS</h4>
+                            <h4>ಇಂಟ್ರಾವೆನಸ್</h4>
+                            <p class="details">Intravenous Injection, Intravenous Infusion, Intra Muscular Injection
+                                <br>ಇಂಟ್ರಾವೆನಸ್ ಇಂಜೆಕ್ಷನ್,
+                                ಇಂಟ್ರಾವೆನಸ್ ಇನ್ಫ್ಯೂಷನ್, ಇಂಟ್ರಾ ಮಸ್ಕ್ಯುಲರ್ ಇಂಜೆಕ್ಷನ್
+                            </p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-03.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-crutch"></i>
+                            <h4>Tube Insertion</h4>
+                            <h4>ಟ್ಯೂಬ್ ಅಳವಡಿಕೆ</h4>
+                            <p class="details">Ryles Tube Insertion, Ryles Tube Feeding, Peg Tube Feeding, Tracheostomy
+                                Tube Care, Foley's Catherization<br>ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಅಳವಡಿಕೆ, ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಆಹಾರ, PEG
+                                ಟ್ಯೂಬ್ ಆಹಾರ, ಟ್ರಾಕಿಯೊಸ್ಟೊಮಿ ಟ್ಯೂಬ್ ಕೇರ್, ಫೋಲಿಯ ಕ್ಯಾತಿಟರೈಸೇಶನ್</p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-04.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-surgeon"></i>
+                            <h4>Medical Care</h4>
+                            <h4>ವೈದ್ಯಕೀಯ ಆರೈಕೆ</h4>
+                            <p class="details">Wound Dressing - Big, Medium, Small <br>ಗಾಯದ ಡ್ರೆಸ್ಸಿಂಗ್ - ದೊಡ್ಡ, ಮಧ್ಯಮ,
+                                ಸಣ್ಣ</p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-05.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-laboratory"></i>
+                            <h4>BLADDER WASH</h4>
+                            <h4>ಮೂತ್ರಕೋಶ ವಾಶ್</h4>
+                            <p class="details">Bladder Wash Available<br>ಮೂತ್ರಕೋಶ ವಾಶ್ ಲಭ್ಯವಿದೆ</p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dept-box">
+                        <div>
+                            <img src="images/department/dept-06.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="dept-details">
+                            <div class="round-style"></div>
+                            <i class="icon icofont-bed"></i>
+                            <h4>Bed Ridden Patient Care</h4>
+                            <h4>ಹಾಸಿಗೆ ಹಿಡಿದ ರೋಗಿಗಳ ಆರೈಕೆ</h4>
+                            <p class="details">Care of bedridden patients available. <br>ಹಾಸಿಗೆ ಹಿಡಿದ ರೋಗಿಗಳ ಆರೈಕೆ
+                                ಲಭ್ಯವಿದೆ</p>
+                            <a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+                            <a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gradient" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center mb-4">
+                        <h2 class="text-white">All Services</h2>
+                        <h2 class="text-white">ಎಲ್ಲಾ ಸೇವೆಗಳು</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme review-slider">
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>BP-CHECK UP</h6>
+                                <h6>ಬಿಪಿ - ಪರೀಕ್ಷಿಸಿ</h6>
+                            </div>
+                            <div class="user-txt">
+                                <div class="user-info">
+                                    <p class="sub-heading text-white"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>PULSE-CHECK UP</h6>
+                                <h6>ಪಲ್ಸ್-ಚೆಕ್ ಅಪ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>OXYGEN LEVEL -CHECK UP</h6>
+                                <h6>ಆಮ್ಲಜನಕದ ಮಟ್ಟ - ಪರಿಶೀಲಿಸಿ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>TEMPERATURE-CHECK UP</h6>
+                                <h6>ತಾಪಮಾನ-ಪರಿಶೀಲಿಸಿ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>WEIGHT -CHECK UP</h6>
+                                <h6>ತೂಕ - ಪರಿಶೀಲಿಸಿ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>SUGAR - CHECK UP</h6>
+                                <h6>ಸಕ್ಕರೆ - ಪರಿಶೀಲಿಸಿ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>IV CANNULISATION</h6>
+                                <h6>IV ಕ್ಯಾನುಲೈಸೇಶನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>INTRAVENOUS INJECTION</h6>
+                                <h6>ಇಂಟ್ರಾವೆನಸ್ ಇಂಜೆಕ್ಷನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>INTRAVENOUS INFUSION</h6>
+                                <h6>ಇಂಟ್ರಾವೆನಸ್ ಇನ್ಫ್ಯೂಷನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>INTRA MUSCULAR INJECTION</h6>
+                                <h6>ಇಂಟ್ರಾ ಮಸ್ಕ್ಯುಲರ್ ಇಂಜೆಕ್ಷನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>SUBCUTANEOUS INJECTION</h6>
+                                <h6>ಸಬ್ಕ್ಯುಟೇನಿಯಸ್ ಇಂಜೆಕ್ಷನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>RYLES TUBE INSERTION</h6>
+                                <h6>ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಅಳವಡಿಕೆ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>RYLES TUBE FEEDING</h6>
+                                <h6>ರೈಲ್ಸ್ ಟ್ಯೂಬ್ ಆಹಾರ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>PEG TUBE FEEDING</h6>
+                                <h6>PEG ಟ್ಯೂಬ್ ಆಹಾರ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>FOLEY’S CATHETERIZATION</h6>
+                                <h6>ಫೋಲಿಯ ಕ್ಯಾತಿಟರೈಸೇಶನ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>BLADDER WASH</h6>
+                                <h6>ಮೂತ್ರಕೋಶ ವಾಶ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>WOUND DRESSING - BIG, MEDIUM, SMALL</h6>
+                                <h6>ಗಾಯದ ಡ್ರೆಸ್ಸಿಂಗ್ - ದೊಡ್ಡ, ಮಧ್ಯಮ, ಸಣ್ಣ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>SURGICAL CARE</h6>
+                                <h6>ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಆರೈಕೆ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>MEDICAL CARE</h6>
+                                <h6>ವೈದ್ಯಕೀಯ ಆರೈಕೆ</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>TRACHEOSTOMY TUBE CARE</h6>
+                                <h6>ಟ್ರಾಕಿಯೊಸ್ಟೊಮಿ ಟ್ಯೂಬ್ ಕೇರ್</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-card shadow-md">
+                                <h6>BED RIDDEN PATIENT CARE</h6>
+                                <h6>ಹಾಸಿಗೆ ಹಿಡಿದ ರೋಗಿಗಳ ಆರೈಕೆ</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section inverse-bg" id="premises">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center mb-4">
+                        <h2>Contact Us</h2>
+                        <h2>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="text-align: center;font-weight: 100;">Mobile No:</h3>
+                    <h3 style="text-align: center;color: #009bad;">96323 25244</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3 style="text-align: center;font-weight: 100;">WhatsaApp No:</h3>
+                    <h3 style="text-align: center; color: #009bad;">95386 06381</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-gradient overflow-hidden pb-4" id="footer">
+        <div class="container footer-bottom">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="foot-logo">
+                        <img src="images/logo.png" class="mt-2" alt="">
+                    </div>
+                    <p class="mt-4 text-left ftr-about">Angel Home Health Care Service <br>ಏಂಜೆಲ್ ಹೋಮ್ ಹೆಲ್ತ್ ಕೇರ್
+                        ಸರ್ವಿಸ್</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5 class="footer-title">Contact</h5>
+                    <ul class="footer-menu list-unstyled mb-0 mt-4 contact-menu-list">
+                        <li>
+                            <i class="icofont-location-pin"></i>
+                            <a href="javascript:void(0)">
+                                #5, 2nd Cross, Manjunath Nagar, Cholurpalya, Magadi Road, Bangalore - 560 023
+                            </a>
+                        </li>
+                        <li><i class="icofont-phone"></i><a href="tel:+919632325244">96323 25244, 77957 62024, 88675
+                                23650, 95386 06381 </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-desc mt-4 pt-4">
+                        <p class="mb-0 text-center"><span id="year"></span> &copy; <span
+                                class="text-white font-weight-bold">Angel Home Health Care Service.</span> Design by
+                            Dolab IT
+                            Solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back_top"> <i class="icofont-rounded-up"></i></a>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/wavify.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
